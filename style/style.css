@@ -1,0 +1,60 @@
+*{
+    font-family: "Chelsea Market";
+}
+:root{
+    --primary: #FFF2D7;
+    --secondary: #FFE0B5;
+    --tersier: #F8C794;
+    --fourth: #D8AE7E;
+}
+body{
+    background-color: var(--primary);
+}
+nav{
+    border-bottom: 2px solid black;
+}
+nav a:hover{
+    background-color: var(--primary);
+    color: black;
+    border-radius: 4px;
+}
+footer {
+    background-color: var(--fourth);
+    width: 100%;
+    border-top: 2px solid black;
+}
+.pembungkus{
+    margin-top: 215px;
+}
+/* .pembungkus col img:hover {
+    transform: scale(2,3);
+} */
+form fieldset button:hover {
+    background-color: var(--tersier);
+    color: black;
+}
+/* form legend{
+    border: 1px solid black;
+} */
+/* form .initable {
+    min-width: 500px;
+} */
+th, td {
+    padding: 15px;
+}
+.table-anggota,
+.table-buku {
+    min-width: 80%;
+}
+.container .warna{
+    background-color: var(--secondary);
+    height: 600px;
+}
+.container .parag p{
+    max-width: 275px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+nav {
+    background-color: var(--fourth);
+}
